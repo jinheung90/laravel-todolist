@@ -54,11 +54,5 @@ Content-type: application/x-www-form-urlencoded;charset=utf-8*/
 // post지만 겟으로 받아오면 잘받아진다 에러도 그냥 에러가 잡히는게 아니라
 //"error_description":"Bad client credentials","error_code":"KOE010" 요 에러 잡히는데 무슨 문제인지는 모르겠다
 
-토큰을 예제에는 토큰을 쿠키에 날려서 저장
-
-결국 폴리시는 api형식에 안맞는다는것을 깨달음 자꾸 이상한쪽으로 에러를띄움
-그래서 auth::user()->id로 접근함 task는 고침 user는 시간없어서 못고침 
-
-
 
 
